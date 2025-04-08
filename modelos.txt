@@ -17,6 +17,13 @@ webcalc.com.br/utilitarios/rgb_hex.html
 
 box-sizing: border-box;
 
+.album1 {
+    box-shadow: -10px -10px 15px 5px blue;
+}
+
+.album2 {
+    box-shadow: 10px -10px 15px 5px blue;
+}
 
 <body>
     <div class="topo">...</div>
