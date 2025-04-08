@@ -1,0 +1,225 @@
+Para evitar 
+
+background-color: rgba(128,128,128, 0.5);
+
+webcalc.com.br/utilitarios/rgb_hex.html
+
+
+.banner div {
+    max-width: 650px;
+    background-color: rgba(128, 128, 128, 0.5);
+    color: white;
+    margin: 0 auto;
+    padding: 40px 20px;
+    border-radius: 12px;
+    text-align: center;
+    }
+
+box-sizing: border-box;
+
+
+<body>
+    <div class="topo">...</div>
+    <div class="container-principal">
+        <div class="secao-sobre-nos">...</div>
+        <div class="secao-computadores">...</div>
+        <div class="secao-contatos">...</div>
+    </div>
+</body>
+
+.secao-sobre-nos {
+    max-width: 1024px;
+    padding: 50px;
+    margin: 0 auto 50px;
+    border: 2px solid aqua;
+    border-radius: 8px;
+    text-align: center;
+    color: #d1d1d1;
+    box-sizing: border-box;
+}
+
+.secao-computadores {
+    max-width: 1024px;
+    padding: 20px 0;
+    margin: 0 auto 50px;
+    border: 2px solid aqua;
+    border-radius: 8px;
+    color: #d1d1d1;
+    box-sizing: border-box;
+}
+
+.secao-contatos {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 2px solid aqua;
+    border-radius: 8px;
+    text-align: center;
+    color: #d1d1d1;
+    box-sizing: border-box;
+}
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Home</title>
+    </head>
+    <body>
+    <div class="topo">
+        <a href="#sobre">Quem Somos</a>
+        <a href="#contato">Contato</a>
+    </div>
+    <div>
+        <img class="img-capa" src="./capa.jpg" />
+    </div>
+    <div class="container-principal">
+        <div class="container-info">
+        <h2>Quem Somos?</h2>
+        <p>
+            A Sony Music Entertainment é uma companhia global de música com vasta
+            gama de artistas locais e grandes estrelas internacionais.
+        </p>
+        <img src="./img.jpg"/>
+        <p>
+            A empresa possui grandioso catálogo que inclui algumas das gravações
+            mais importantes da história.
+        </p>
+        <p>
+            É a casa de gravadoras que representam música de todos os gêneros,
+            incluindo Arista Nashville, Beach Street Records, Black Butter
+            Records, BPG Music, Bystorm Entertainment, Century Media, Columbia
+            Nashville, Columbia Records, Day 1, Descendant Records, Disruptor
+            Records, Epic Records, Essential Records, Essential Worship, Flying
+            Buddha, Fo Yo Soul Recordings, House of Iona Records, Insanity
+            Records, Kemosabe Records, Latium Entertainment, Legacy Recordings,
+            Louder Than Life, Masterworks, Masterworks Broadway, OKeh, Polo Ground
+            Music, Portrait, RCA Inspiration, RCA Nashville, RCA Records,
+            Relentless Records, Reunion Records, Sony Classical, Sony Music Latin,
+            Star Time International, Syco Music, Vested in Culture e Volcano.
+        </p>
+        <p>
+            Presente em mais de 40 países, a Sony Music Entertainment é uma
+            subsidiária integral da Sony Corporation of America, com matriz na
+            cidade de Nova Iorque.
+        </p>
+        </div>
+        <div class="container-contato">
+        <h2>Contato</h2>
+        <div>
+            <h3>Dúvidas?</h3>
+            <p>Entre em contato conosco pelos seguintes canais:</p>
+        </div>
+        <div>
+            <a href="mailto: contato@sonymusic.com.br"
+            >contato@sonymusic.com.br</a
+            >
+            <a href="tel:+552121280600">+55 (21) 2128-0600</a>
+        </div>
+        </div>
+    </div>
+    </body>
+</html>
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+}
+
+.topo {
+    width: 100%;
+    padding: 20px;
+    background: red;
+    text-align: center;
+}
+
+.topo a {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.container-img-capa {
+    width: 100%;
+    height: 350px;
+    padding: 20px;
+    background-color: #a30109;
+}
+
+.container-img-capa img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-principal {
+    padding: 50px 20px;
+}
+
+.container-info,
+.container-contato {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto 40px;
+    border: 1px solid #cf010b;
+    border-radius: 4px;
+}
+
+.container-info {
+    padding: 20px;
+}
+
+.container-img {
+    width: 100%;
+    padding: 20px;
+    background-color: #a30109;
+    margin-bottom: 15px;
+}
+
+.container-img img {
+    width: 100%;
+}
+
+.container-info p {
+    line-height: 25px;
+    margin-bottom: 12px;
+}
+
+.container-info h2,
+.container-contato h2 {
+    margin-bottom: 15px;
+}
+
+.container-contato {
+    padding: 20px 20px 40px;
+}
+
+.container-info h3,
+.container-contato h3 {
+    margin: 12px 0;
+}
+
+.container-info div,
+.container-contato div {
+    margin-top: 30px;
+}
+
+.container-info div a,
+.container-contato div a {
+    background-color: #cf010b;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
