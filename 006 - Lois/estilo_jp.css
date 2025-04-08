@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Monospace';
+}
+
+.topo {
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px solid #302136;
+    text-align: center;
+    color: #fff;
+    background-color: #040206;
+}
+
+.topo a {
+    font-size: 28px;
+    margin: 35px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid #302136;
+}
+.banner {
+    height: calc(100vh - 74px);
+    background-image: url('./img/capa.jpg');
+    background-size: cover;
+}

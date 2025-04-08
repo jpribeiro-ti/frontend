@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+}
+
+.banner {
+    height: 600px;
+    background-image: url('./banner.jpg');
+    background-position: top center;
+    background-size: cover;
+    text-align: center;
+}
+
+.banner h1 {
+    line-height: 600px;
+    font-size: 100px;
+    color: orange;
+    text-shadow: 6px 0px 10px black;
+}
+
+.container-principal {
+    padding: 70px 20px;
+}
+
+.secao-info {
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.secao-info h2 {
+    font-size: 30px;
+}
+
+.secao-info p {
+    margin: 15px 0;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.secao-cards {
+    max-width: 1024px;
+    margin: 50px auto 0;
+    text-align: center;
+}
+
+.secao-cards p,
+.secao-imagens p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.card {
+    display: inline-block;
+    width: 300px;
+    padding: 20px;
+    margin: 20px 15px 0;
+    text-align: center;
+    border-radius: 10px;
+    background-color: orange;
+    box-shadow: 0px 0px 10px 10px black inset;
+}
+
+.card h2,
+.card div p {
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+
+.card img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.card div {
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.secao-imagens {
+    max-width: 1024px;
+    padding: 0 10px;
+    margin: 50px auto 0;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.secao-imagens img {
+    width: 400px;
+    margin: 25px 15px;
+    border-radius: 4px;
+    box-shadow: 10px 10px 5px 2px black;
+}
+
+.secao-imagens::-webkit-scrollbar {
+    height: 15px;
+}
+.secao-imagens::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #DFE9EB;
+}
+
+.secao-imagens::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: orange;
+}
+
+.secao-imagens::-webkit-scrollbar-thumb:hover {
+    background-color: darkorange;
+}
+</style>
+    </head>
+    <body>
+    <div class="banner">
+        <h1>BASKETBALL</h1>
+    </div>
+    <div class="container-principal">
+        <div class="secao-info">
+        <h2>NBA</h2>
+        <p>
+            A NBA (National Basketball Association) é a principal liga de basquete
+            profissional do mundo, reunindo os melhores jogadores do esporte.
+            Fundada em 1946, a liga conta com 30 equipes, sendo conhecida por sua
+            alta competitividade e entretenimento. Grandes lendas como Michael
+            Jordan, LeBron James e Kobe Bryant marcaram a história da NBA. A cada
+            temporada, milhões de fãs acompanham os jogos, com destaque para os
+            Playoffs e as Finais.
+        </p>
+        </div>
+        <div class="secao-cards">
+        <p>Veja abaixo três dos principais jogadores da NBA:</p>
+        <div class="card">
+            <h2>Stephen Curry</h2>
+            <img src="./jogador1.jpg"/>
+            <ul>
+            <li>País: EUA</li>
+            <li>Posição: Armador</li>
+            <li>Time: Golden State Warrios</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Lebron James</h2>
+            <img src="./jogador2.jpg"/>
+            <ul>
+            <li>País: EUA</li>
+            <li>Posição: Ala</li>
+            <li>Time: Los Angeles Lakers</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Nikola Jokic</h2>
+            <img src="./jogador3.jpg"/>
+            <ul>
+            <li>País: Sérvia</li>
+            <li>Posição: Ala-Pivô</li>
+            <li>Time: Denver Nuggets</li>
+            </ul>
+        </div>
+        </div>
+        <div class="secao-imagens">
+        <p>
+            Veja abaixo uma galeria de imagens com momentos da NBA:
+        </p>
+        <img src="./imagem1.jpg"/>
+        <img src="./imagem2.jpg"/>
+        <img src="./imagem3.jpg"/>
+        <img src="./imagem4.jpg"/>
+        <img src="./imagem5.jpg"/>
+        <img src="./imagem6.jpg"/>
+        </div>
+    </div>
+    </body>
+</html>

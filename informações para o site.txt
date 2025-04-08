@@ -1,0 +1,77 @@
+fonte usada monospace
+
+100%
+links 28px margin 35px
+topo 
+Sinopse - secao=sinopse
+Dispobibilidade - secao-canais
+Temporadas - secao-temporadas
+Imagens - secao-imagens
+
+banner - background
+altura = calc(100vh - 74px);
+
+sinopse = 100%
+div max-width: 1024px
+h1 = 36px
+h2 28px
+p = 20px
+h2 margin-top: 30;
+h2 margin-bottom: 50px
+p margin-bottom: 12px
+secao-sinopse
+h1 h2 2 parágrafos
+
+
+largura 100%
+div max-width: 1024px
+h2 28px
+img width: 80%
+p = 20px
+h2 margin-bottom e top: 50px
+secao-canais
+h2
+img - seção canais com efeito sombra - 0px 0px 10px 3px #fff
+1 p
+
+width: 100%
+div 1024px
+padding: 50px 20px
+h2 28px
+div 100%
+h2 magin-bottom: 50px
+div margin-bottom: 40px
+p min-heigth 160px
+padding 20px
+
+h3 20px
+p 16px
+secao-temporadas - container com sombra - 0px 0px 10px 3px
+#cac4c4
+
+h2, quatro divs, cada 1 com 1 h3 e 1 p
+
+
+
+width: 100%
+div 1024px
+padding 50px 20px
+
+h2 28px
+div 100%
+span 100%
+
+span a 20px
+margin-top 50px
+margin-bottom 20px
+barra de rolagem width 15px altura 10px 
+secao-imagens - efeito sombra - 0px 0px 10px 3px #fff
+h2
+galeria com 6 imagens
+1 span com link
+
+rodapé - efeito sombra - 0px 10px 20px 5px #fff
+h3
+width 100%
+padding 40px 0
+h3 16px

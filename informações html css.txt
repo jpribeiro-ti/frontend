@@ -1,0 +1,94 @@
+<html>
+<head>
+
+<style>
+todo o código css que estava no arquivo externo, vc cola aqui
+</style>
+</head>
+
+border-width
+border-stylus
+border-color
+
+
+.container-personagem {
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    padding: 10px;
+    margin: 0 5px;
+    ...;
+    }
+Código 1. Exemplo de uso do display para mudar o alinhamento das divs
+img {
+    display: block;
+    width: 400px;
+    margin: 50px auto 0;
+}
+
+width: calc((100vw / 3) - 30px); define a largura como 1/3 - 30px
+
+
+.banner {
+    height: calc(100vh - 120px);
+    background-image: url('./banner.jpg');
+    background-position: bottom;
+    background-size: cover;
+}
+
+
+background-image
+background-repeat
+background-position
+background
+background-size
+background-attachment
+
+body {
+    background-image: url('img/fundo-floresta.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+background: #fff url("img/fundo.jpg") no-repeat top right fixed;
+
+
+.container-img {
+    width: 90%;
+    height: 65vh;
+    margin: 0 auto;
+    background-image: url('./banner.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+border-radius: 15px;
+
+
+lista de definição
+<dl> </dl> - abertura e fechamento de uma lista;
+<dt> </dt> - abertura e fechamento de um termo;
+<dd> </dd> - abertura e fechamento de uma descrição.
+
+<!-- Termo seguido da sua definição -->
+<dl>
+ <dt>Amor</dt>
+ <dd>
+  Forte afeição por outra pessoa
+ </dd>
+
+ <dt>Ética</dt>
+ <dd>
+  Conjunto de regras e preceitos
+  de ordem valorativa e moral.
+ </dd>
+</dl>
+
+<ol start="3">
+
+    <ol reversed>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ol>
