@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Monospace';
+    font-family: monospace;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
 }
 
 .topo {
@@ -26,4 +31,70 @@
     height: calc(100vh - 74px);
     background-image: url('./img/capa.jpg');
     background-size: cover;
+}
+.largura-1024 {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.largura-1024 p {
+    font-size: 20px;
+    margin: 50px 0;
+    line-height: 40px;
+    margin-bottom: 12px;
+}
+.secao-sinopse,
+.secao-canais,
+.secao-temporadas {
+    padding: 50px 20px;
+}
+.secao-sinopse h1 {
+    text-align: center;
+    font-size: 36px;
+}
+.secao-sinopse h2 {
+    text-align: center;
+    font-size: 28px;
+    margin: 30px 0 50px 0;
+}
+.secao-canais,
+.secao-imagens {
+	background-color: #302136;
+	color: #fff;
+}
+.secao-canais h2 {
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.img-plataforma {
+    display: block;
+    width: 80%;
+    margin: 0 auto 50px;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 10px 3px #fff;
+}
+.conteudo-temporadas {
+    box-shadow: 0px 0px 10px 3px #cacc4c;
+    border: 1px solid #000;
+}
+.secao-temporadas h2 {
+    font-size: 28px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.secao-temporadas h3 {
+    font-size: 20px;
+}
+.secao-temporadas p {
+
+}
+.conteudo-temporada {
+	min-height: 160px;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-bottom: 40px;
+	background: #f0f0f0;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 3px #cac4c4;
 }
