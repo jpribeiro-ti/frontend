@@ -1,0 +1,29 @@
+.hero {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(55, 81, 168);
+    border-top: 5px dashed #f2f4f5 ;
+}
+
+.card1 {
+    background-color: (0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.banner {
+    max-width: 650px;
+    background-color: rgba(88, 116, 110, 0.1);
+    color: white;
+    margin: 0 auto;
+    padding: 40px 20px;
+    border-radius: 12px;
+    text-align: center;
+    }
+
+.bg-segundo {
+    background-color: royalblue;
+}
