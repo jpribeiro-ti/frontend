@@ -1,0 +1,58 @@
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.topo {
+    background-color: #d36b15;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.topo h1 {
+    color: #fff;
+}
+
+.container-principal {
+    width: 75%;
+    margin: 40px auto;
+    padding: 40px 20px;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+}
+
+.subcontainer-imagem {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.subcontainer-imagem img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.subcontainer-paragrafos {
+    width: 90%;
+    border: 1px solid gray;
+    border-radius: 12px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.subcontainer-paragrafos p {
+    margin-bottom: 15px;
+}
+
+.rodape {
+    padding: 10px 0;
+    background-color: #333;
+    text-align: center;
+    color: white;
+}

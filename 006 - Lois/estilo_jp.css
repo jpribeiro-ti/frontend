@@ -56,10 +56,11 @@ body {
     font-size: 28px;
     margin: 30px 0 50px 0;
 }
+.secao-sinopse,
 .secao-canais,
+.secao-temporadas,
 .secao-imagens {
-	background-color: #302136;
-	color: #fff;
+	padding: 50px 20px;
 }
 .secao-canais h2 {
     font-size: 28px;
@@ -98,3 +99,61 @@ body {
 	border-radius: 5px;
 	box-shadow: 0px 0px 10px 3px #cac4c4;
 }
+.galeria {
+	margin: 0 auto 20px;
+	overflow-x: scroll;
+	white-space: nowrap;
+}
+
+.galeria img {
+	width: 320px;
+	min-height: 220px;
+	margin: 25px 20px;
+	box-shadow: 0px 0px 10px 3px #fff;
+}
+
+.secao-imagens span {
+	font-size: 20px;
+}
+
+.secao-imagens span a {
+	color: blue;
+}
+
+.rodape {
+	width: 100%;
+	padding: 40px 0;
+	font-size: 16px;
+	text-align: center;
+	background: #302036;
+	color: #fff;
+	box-shadow: 0px 10px 20px 5px #fff;
+}
+
+::-webkit-scrollbar {
+	width: 15px;
+	height: 10px;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: #f4f4f4;
+}
+
+::-webkit-scrollbar-track:hover {
+	background-color: #b8c0c2;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #888888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #555555;
+}
+
+
+
+
+
