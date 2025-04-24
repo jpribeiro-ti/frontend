@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    color: #0000008c;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    background-color: rgb(52, 157, 171);
+    padding: 10px 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-topo img {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+}
+
+.link-topo {
+    margin-left: 150px;
+    padding: 10px;
+}
+
+.link-topo a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    padding: 5px 15px;
+}
+
+.largura-1024 {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container-banner {
+    background-image: url('../assets/recepcao.png');
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-banner h1 {
+    font-size: 48px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.sobre-clinica-topo {
+    padding: 40px 200px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.sobre-clinica-topo h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sobre-clinica-lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-clinica-lista h3 {
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.sobre-clinica-lista li {
+    list-style: inside;
+    padding-left: 30px;
+}
+
+.container-multiespecialidade {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-multiespecialidade h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.container-multiespecialidade p {
+    padding: 0 200px;
+}
+
+.container-multiespecialidade img {
+    padding-top: 20px;
+    width: 300px;
+}
+
+.container-multiespecialidade figcaption {
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.btn-horarios {
+   margin: 20px auto;
+   border: 1px solid rgb(50, 142, 181);
+   padding: 8px 15px;
+   background-color: rgb(52, 157, 171);
+}
+
+.btn-horarios a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.container-contato {
+    padding: 20px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.container-contato h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.container-contato p {
+    padding-bottom: 20px;
+    width: 550px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: rgb(52, 157, 171);
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+footer img {
+    padding-bottom: 30px;
+}
+
+footer p {
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    
+}
+
+@media (min-width: 769px) {
+
+
+}
