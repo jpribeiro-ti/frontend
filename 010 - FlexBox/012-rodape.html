@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body { color: #fff;}
+        .container-rodape {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  background-color: black;
+}
+.container-imagem {
+  width: 100px;
+}
+.container-imagem img {
+  width: 100%;
+  height: 100%;
+}
+.container-contato {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.container-contato div {
+  padding: 10px 0;
+  border: 1px solid gray;
+  border-radius: 4px;
+  flex: 1 1 240px;
+  text-align: center;
+}
+.container-descricao {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.container-descricao a {
+  width: 40px;
+  height: 40px;
+  background-image: url("./img/seta.png");
+  background-position: center;
+  background-size: cover;
+  background-color: #dddddd;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 60px;
+  right: 0px;
+}
+.container-descricao img {
+    width: 30px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container-rodape">
+      <div class="container-imagem">
+        <img src="./img/logo.png" />
+      </div>
+      <div class="container-contato">
+        <div>
+          <h3>ENDEREÇO</h3>
+          <p>Av. Bernardino de Campos, 98</p>
+          <p>São Paulo, SP - 23145-678</p>
+        </div>
+        <div>
+          <h3>CONTATO</h3>
+          <p>info@gelateria.com</p>
+          <p>Tel.: (11) 3456-7890</p>
+        </div>
+        <div>
+          <h3>HORÁRIOS</h3>
+          <p>Aberto todos os dias</p>
+          <p>10:00 - 22:00</p>
+        </div>
+      </div>
+      <div class="container-descricao">
+        <div>
+          <img src="./img/instagram.png" />
+          <img src="./img/facebook.png" />
+          <img src="./img/whatsapp.png" />
+        </div>
+        <div>
+          <p>© Gelateria Gourmet</p>
+          <p>Criado por dev.com.br</p>
+        </div>
+        <a href="#topo"></a>
+      </div>
+    </div>
+  </body>
+</html>

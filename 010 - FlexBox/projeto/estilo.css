@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;  width: 100%;
+}
+
+.container-largura-maxima {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container-topo {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    background-color: #fff;
+    border-bottom: 1px solid gray;
+}
+
+.container-topo2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-topo {
+    text-transform: uppercase;
+    color: black;
+    padding: 5px 10px;
+}
+
+.link-topo2 {
+    font-size: 24px;
+    color: black;
+    padding: 5px 10px;
+}
+
+.link-topo2 span {
+    color:rgb(100, 100, 149);
+}
+
+.secao-banner {
+    margin-top: 80px;
+    background-image: url('./img/img-fundo.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-banner {
+    background-color: aqua;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.card-banner h1 {
+    font-size: 50px;
+    color: #fff;
+    margin: 30px 40px;
+}
+
+.card-banner p {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container-quartos,
+.container-rota,
+.container-sobre {
+    margin: 80px auto 40px auto;
+    text-align: center;
+}
+
+.container-quartos h2,
+.container-rota h2,
+.container-sobre h2 {
+    font-size: 36px;
+    color: #333;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.container-quartos p,
+.container-rota p,
+.container-sobre p {
+    padding: 0 200px;
+    line-height: 50px;
+}
+
+.container-fotos-quarto {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex: 1 1 300px;
+}
+
+.container-fotos-quarto div {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-fotos-quarto img {
+    width: 300px;
+}
+
+.container-fotos-quarto a {
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 3px solid green;
+    padding: 18px 0;
+}
+
+.container-sobre-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card-sobre {
+    width: 480px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-sobre img {
+    width: 90px;
+    height: 110px;
+    margin-left: 35px;
+}
+
+.container-rodape {
+    background-color: rgb(30, 152, 121);
+}
+
+.rodape {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1 1 50;
+    gap: 30px;
+    padding: 35px 0;
+    color: #fff;
+    border-bottom: 1px solid #333;
+}
+
+.rodape h3 {
+    font-size: 22px;
+}
+
+.rodape a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.rodape .largura {
+    width: 180px;
+}
+
+.copy {
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
