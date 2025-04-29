@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.limita-area {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 150px;
+}
+
+nav {
+    
+}
+
+.secao-capa {
+    background-image: url("./img/bg-estacao.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+section
+{
+    padding: 60px 20px;
+}
+
+.secao-capa {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url("img/bg-estacao.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secao-capa::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.secao-capa div {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 60px 20px;
+    z-index: 1;
+}
+    */
+
+.secao-capa h1 {
+    font-size: 90px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.secao-capa span {
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.secao-sobre {
+    margin-top: 50px;
+}
+
+.secao-sobre h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.secao-sobre img {
+    width: 100%;
+}
+
+.secao-sobre p {
+    font-size: 18px;
+    line-height: 35px;
+    margin: 20px 0;
+}
+
+.secao-sobre p::first-letter {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 12px 0 0px 0;
+}
+
+li::before {
+    content:"";
+    width: 20px;
+    height: 20px;
+    background-image: url("img/seta.png");
+    margin: 0 6px 0 0;
+}
+
+/*ul li::before {
+    content: "\2022";
+    color: #e62429;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}*/
+
+.galeria {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.galeria img {
+    width: 310px;
+    transition: 0.3s;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.galeria img:hover {
+    opacity: 1;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    margin: 25px 0 0 0;
+    background: #f5c002;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
